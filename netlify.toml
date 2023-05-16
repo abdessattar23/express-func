@@ -1,9 +1,9 @@
 [build]
 command = "npm run build"
-functions = "functions"
+functions = ".netlify/functions"
 
 [dev]
-command = "npm start"
+command = "npm run start"
 port = 3000
 
 [build.environment]
