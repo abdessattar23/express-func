@@ -2,20 +2,13 @@
   "name": "express",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm install && npm run build:functions",
-    "build:functions": "npx netlify-lambda build functions",
-    "start": "npm run start:functions",
-    "start:functions": "npx netlify-lambda serve functions",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm install && npm run build",
+    "start": "npm run start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "pg": "^8.7.1"
-  },
-  "devDependencies": {
-    "netlify-cli": "^3.40.4",
-    "netlify-lambda": "^3.2.0"
   }
 }
