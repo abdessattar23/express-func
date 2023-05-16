@@ -2,8 +2,8 @@
   "name": "express",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm install && npm run build",
-    "start": "npm run start"
+    "build": "npm install && npm start",
+    "start": "npm run"
   },
   "author": "",
   "license": "ISC",
